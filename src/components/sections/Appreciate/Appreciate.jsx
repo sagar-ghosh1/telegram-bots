@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import videoBg from "@/assets/videos/last.mp4"
 import Container from "../Container/Container";
 import img from '@/assets/ideas/imageremovebg.png'
 import { FaTelegramPlane } from "react-icons/fa";
@@ -27,7 +26,6 @@ const Appreciate = () => {
             autoPlay
             loop
             src='https://res.cloudinary.com/dyzbg4knq/video/upload/v1710883342/ue7gcmhaa5nhlxtmzk3y.mp4'
-          // src={videoBg}
           ></video>
         </div>
 
