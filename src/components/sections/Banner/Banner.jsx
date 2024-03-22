@@ -40,7 +40,7 @@ const Banner = () => {
           // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711101136/aukpsdyixdeshcndipb8.mp4'
           // src={mobileVideo}
           >
-            <source src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711101136/aukpsdyixdeshcndipb8.mp4' type='video/mp4' />
+            <source src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711115754/l5lfbb0iotty3qst3zmx.mp4' type='video/mp4' />
           </video>
         </div>
 
