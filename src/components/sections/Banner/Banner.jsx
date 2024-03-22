@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 import Container from "../Container/Container";
+import computerVideo from '@/assets/videos/bannerBg1.mp4';
+import mobileVideo from '@/assets/videos/bannerBg2.mp4';
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
 import img from '@/assets/banner/group69.png'
@@ -18,12 +20,23 @@ const Banner = () => {
       <div className="overflow-hidden w-full h-[100vh] md:h-[120vh] flex justify-center items-center relative">
         {/* video */}
         <div className="w-full h-[80vh] md:h-dvh">
+          {/* computer  */}
           <video
-            className="w-full h-full object-fill md:object-cover"
+            className="w-full h-full object-fill md:object-cover hidden lg:block"
             muted
             autoPlay
             loop
-            src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711112038/yshzoy9vp672fgw0vs4s.mp4'
+            // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711112038/yshzoy9vp672fgw0vs4s.mp4'
+            src={computerVideo}
+          ></video>
+          {/* mobile  */}
+          <video
+            className="w-full h-full object-fill md:object-cover block lg:hidden"
+            muted
+            autoPlay
+            loop
+            // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711112038/yshzoy9vp672fgw0vs4s.mp4'
+            src={mobileVideo}
           ></video>
         </div>
 
