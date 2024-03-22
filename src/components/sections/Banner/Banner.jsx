@@ -27,7 +27,7 @@ const Banner = () => {
           ></video>
         </div>
 
-        {/* Banner contents */}
+        {/*  Banner contents  */}
         <div className="absolute w-full h-full bg-[#151414] bg-opacity-40">
           <Container>
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-5 mt-56 lg:mt-52 2xl:mt-72 z-40">
