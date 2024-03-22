@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import Container from "../Container/Container";
-import computerVideo from '@/assets/videos/bannerBg1.mp4';
-import mobileVideo from '@/assets/videos/bannerBg2.mp4';
+// import computerVideo from '@/assets/videos/bannerBg1.mp4';
+// import mobileVideo from '@/assets/videos/bannerBg2.mp4';
 import { Button } from "@/components/ui/button";
 import { MdArrowOutward } from "react-icons/md";
 import img from '@/assets/banner/group69.png'
@@ -26,8 +26,8 @@ const Banner = () => {
             muted
             autoPlay
             loop
-            // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711112038/yshzoy9vp672fgw0vs4s.mp4'
-            src={computerVideo}
+            src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711115754/l5lfbb0iotty3qst3zmx.mp4'
+          // src={computerVideo}
           ></video>
           {/* mobile  */}
           <video
@@ -35,8 +35,8 @@ const Banner = () => {
             muted
             autoPlay
             loop
-            // src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711112038/yshzoy9vp672fgw0vs4s.mp4'
-            src={mobileVideo}
+            src='https://res.cloudinary.com/dycfvsiex/video/upload/v1711101136/aukpsdyixdeshcndipb8.mp4'
+          // src={mobileVideo}
           ></video>
         </div>
 
